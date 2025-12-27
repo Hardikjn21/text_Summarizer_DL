@@ -1,11 +1,23 @@
+# Data handling
 pandas
 numpy
 scikit-learn
+pyarrow>=12.0.0
+
+# Hugging Face
 datasets>=2.14.0
 transformers>=4.35.0
-torch>=2.0.0
+tokenizers>=0.13.3
 sentencepiece>=0.1.99
-pyarrow>=12.0.0
+accelerate>=0.26.0   # Required for Trainer
+
+# PyTorch
+torch>=2.0.0
+torchvision>=0.15.2
+torchaudio>=2.0.2
+
+# Utilities
 tqdm>=4.65.0
 
+# Editable install (if your package has setup.py)
 # -e .
